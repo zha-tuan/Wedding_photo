@@ -148,12 +148,12 @@ a {
 	min-width: 1200px;
 	background: #F2F2F2;
 	position: relative;
+	height: 792px;
 }
 .foot .foot_wrap {
 	position: relative;
 	width: 1200px;
 	margin: 0 auto;
-	height: 732px;
 	padding-top: 72px;
 }
 .foot .foot_wrap .foot_left {
@@ -219,7 +219,7 @@ a {
 	position: relative;
 	width: 1200px;
 	float: left;
-	padding-bottom: 80px;
+	padding-bottom: 58px;
 	font-size: 14px;
 	color: #999999;
 }
