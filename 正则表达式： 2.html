@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Document</title>
+	    <meta name="Generator" content="Sublime Text3">
+	    <meta name="Author" content="深山一枯柴">
+	    <meta name="website" content="http://www.lihui-v.top">
+	    <meta name="Description" content="马不停蹄的🐌!">
+	   
+	    <script type="text/javascript">
+// 正则表达式：
+// 1，概念：匹配字符串的一种模式：
+// 2，作用：
+// 1）测试字符串的某个模式；
+// 2）替换文本；
+// 3）可以查找特定的文字；
+// 3，类型：是JS的内置对象。
+// 4，创建正则表达式：
+// 1），正则表达式的字面量：
+// var reg = /pattern/;(JS加载后编译)；
+// 2）通过JS的内置对象RegExp构造正则对象；
+// var reg = new RegExp('pattern');
+// 3),reg.exec(str)方法；
+// str：要执行正则表达式的目标字符
+// exec：表示在字符串中匹配符合正则规则的字符串
+  // var reg = /H/;
+  // var str = "testHTML";
+  // var result = reg.exec(str);
+  // alert(result);
+  // var reg = /O/;
+  // var str = "HEVOLM";
+  // var result = reg.exec(str);
+  // alert(result);
+
+ // g(全文查找)
+ // var reg = /test/g;
+ // // i(忽略大小写)；
+ // var reg = /test/i;
+ // // m(多行查找)
+ // var reg = /test/m;
+ // // 组合
+ // var reg = /test/ig;
+
+ // 5，正则中常见特殊字符的含义
+     // 正则表达式由普通字符和特殊字符组成。
+     // 普通字符：字母（a-zA-Z）,数字，_等。
+     // 特殊：(),[],{},^,$,?,\,|,+,.
+     // 普通字符直接拿来使用；
+     // 特殊字符的使用要使用转义字符转义；
+     // "\"是转义字符
+     // \b:匹配的是单词的边界
+     // var reg = /\blove\b/;
+     // var str = "I love HTML";
+     // alert(reg.exec(str));
+
+      // "^"匹配一个单词或者一个字符串的开头
+      var reg = /^a/i;
+      var str = "A an";
+      alert(reg.exec(str));
+      // "$"匹配一个单词或者一个字符串的结尾
+      // var reg = /a$/;
+      // var str = "an A";
+      // alert(reg.exec(str));
+
+      // "*"匹配0次或多次
+      // var reg = /ab*/;//一个a后面跟0个或者多个b
+      // var str = "abrtbbbbbbbb";
+      // alert(reg.exec(str));
+
+      // "+"匹配一次或多次
+      // var reg = /ba+/;//一个b后边至少有1个或者多个a
+      // var str = "bbbbbbbaaaaa";
+      // alert(reg.exec(str));
+      
+      // "?":匹配0次或1次
+      // var reg = /ab?/;//一个a后面跟0个或者多个b
+      // var str = "abbbbbrtbbbbbbbb";
+      // alert(reg.exec(str));
+
+      // var reg = /a?b+$/;
+      // var str = "bbbbabbabbb";
+      // alert(reg.exec(str));
+
+        // 包含符{}ab{2}:一个a后面跟两个b
+        // var reg = /ab{2,5}/;
+        // var str = "baaabbbbbb";
+        // alert(reg.exec(str));
+         // ab{2,}一个a后至少跟两个b
+         // ab{2,5}:一个a后面至少跟2~5个b
+         // * 相当于{0,}
+         // + .....{1,}
+         // ? .....{0,1}
+
+         // "."表示任何字符
+         // var reg = /a.[0-9]/;
+         // var str = "bbbaaa12bba34bba";
+         // alert(reg.exec(str));
+
+         // var reg = /^.{3}$/;
+         // var str = 'hdf';
+         // alert(reg.exec(str));
+
+         // \w:表示的是单词字符 等同于[a-zA-Z0-9]
+         // var reg = /\W+/;
+         // var str = "H5班";
+         // alert(reg.exec(str));
+         // // \W:非单词字符
+         // //匹配\m
+         // var reg = /\\m/;   //特殊字符需要转义
+         // console.log(reg.test('asdf\\masadfasd'));//test用来判断是否匹配上
+         // console.log('asdf\\masadfasd')；
+         // /\t/ 制表符
+         // /\n/ 回车符
+         // /\f/ 换页符
+         // /\b/ 与回退字符
+
+
+	    </script>
+	</head>
+	<body>
+	   
+	</body>
+	</html>	
