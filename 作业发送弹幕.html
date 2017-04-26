@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>弹幕</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		#box{
+			width:800px;
+			height:600px;
+			background-color:#348f14;
+			position: relative;
+			border:10px solid red;
+			overflow: hidden;
+		}
+		#box a{
+			position: absolute;
+			width:400px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload=function(){
+			$('btn').onclick=function(){
+				var oA=document.createElement('a');
+				oA.innerHTML=$('in').value;
+				oA.style.top=S(580,10)+'px';
+				oA.style.fontSize=S(30,15)+'px';
+				oA.style.left=$('box').offsetWidth+'px';
+				oA.style.color='rgb('+S(255,0)+','+S(255,0)+','+S(255,0)+')';
+				$('box').appendChild(oA);
+				var speed=S(4,1);
+				oA.time=setInterval(function(){
+					oA.style.left=oA.offsetLeft-speed+'px';
+					if(oA.offsetLeft<-400){
+						clearInterval(oA.time);
+						oA.remove();
+					}
+				},10)
+			}
+		}
+		function S(max,min){
+			return parseInt(Math.random()*(max-min)+min);
+		}
+		function $(id){
+			return document.getElementById(id);
+		}
+	</script>
+</head>
+<body>
+<div id="box"></div>
+<input id="in" value="弹幕弹幕弹幕弹幕弹幕">
+<button id="btn">发送弹幕</button>
+</body>
+</html>
