@@ -1,0 +1,79 @@
+/*大图部分*/
+.LFY_bigpic{
+	width: 1903px;
+	height: 750px;
+	/*min-width: 1200px;*/
+	position: relative;
+}
+.LFY_bigpic img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/*大图站点部分*/
+.LFY_parent_site{
+	width: 280px;
+	height: 750px;
+	position: absolute;
+	left: 71px;
+	top: 0;
+	background: white;
+	opacity: 0.7;
+}
+.LFY_site{
+	width: 230px;
+	height: 714px;
+	position: absolute;
+	top: 36px;
+	left: 44px;
+}
+.LFY_sub_site{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #333333;
+	margin-bottom: 70px;
+}
+.LFY_sub_site p{
+	float: left;
+	margin-right: 20px;
+}
+/*国内站点*/
+.LFY_inlandsite p{
+	font-size: 20px;
+	color: #6d98c2;
+	margin-bottom: 25px;
+}
+.LFY_inlandsite ul{
+	font-size: 16px;
+	color: #333333;
+}
+.LFY_inlandsite ul li{
+	margin-bottom: 20px;
+}
+.LFY_inlandsite ul li span{
+	margin-right: 44px;
+}
+/*国外站点*/
+.LFY_foreignsite{
+	margin-top: 56px;
+}
+.LFY_foreignsite p{
+	font-size: 20px;
+	color: #6d98c2;
+	margin-bottom: 25px;
+}
+.LFY_foreignsite ul{
+	font-size: 16px;
+	color: #333333;
+}
+.LFY_foreignsite ul li{
+	margin-bottom: 20px;
+}
+.LFY_foreignsite ul li span{
+	margin-right: 30px;
+}
+.LFY_foreignsite ul li .LFY_Maldives{
+	margin-right: 15px;
+}
