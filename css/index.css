@@ -1,6 +1,7 @@
 /*大图部分*/
 .LFY_bigpic{
-	width: 1903px;
+	width: 100%;
+	min-width: 1200px;
 	height: 750px;
 	/*min-width: 1200px;*/
 	position: relative;
@@ -17,7 +18,7 @@
 	width: 280px;
 	height: 750px;
 	position: absolute;
-	left: 71px;
+	left: 4%;
 	top: 0;
 	background: white;
 	opacity: 0.7;
@@ -76,4 +77,182 @@
 }
 .LFY_foreignsite ul li .LFY_Maldives{
 	margin-right: 15px;
+}
+/*热门城市部分*/
+.LFY_hotcity{
+	width: 100%;
+	margin-top: 100px;
+}
+.LFY_sub_hotcity{
+	width: 1200px;
+	margin: 0 auto;
+}
+.LFY_sub_hotcity p{
+	width: 1200px;
+	text-align: center;
+	font-family: castellar;
+	font-size: 40px;
+}
+.LFY_sub_hotcity span{
+	display: inline-block;
+	width: 1200px;
+	text-align: center;
+	font-size: 40px;
+	color: #c10a0a;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.LFY_sub_hotcity ul{
+	width: 1200px;
+	height: 170px;
+	margin-bottom: 20px;
+}
+.LFY_sub_hotcity ul li{
+	width: 285px;
+	height: 170px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+.LFY_sub_hotcity ul li.rightdistence{
+	margin-right: 0;
+}
+.LFY_sub_hotcity ul li.with{
+	width: 590px;
+}
+.LFY_sub_hotcity ul li img{
+	width: 100%;
+	height: 100%;
+}
+.LFY_sub_hotcity ul li a{
+	display: inline-block;
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	left: 80px;
+	top: 22px;
+}
+.LFY_sub_hotcity ul li a span{
+	display: block;
+	width: 125px;
+	font-size: 24px;
+	font-family: "黑体";
+	color: white;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 37px;
+	z-index: 2;
+}
+.LFY_sub_hotcity ul li a p{
+	width: 125px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 70px;
+	z-index: 2;
+}
+.LFY_sub_hotcity ul li a img{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+.LFY_sub_hotcity ul li a.LFY_butongjuli{
+	position: absolute;
+	top: 22px;
+	left: 237px;
+}
+/*yiang部分*/
+.LFY_yiang{
+	width: 100%;
+	min-width: 1200px;
+	margin-top: 100px;
+}
+.LFY_yiang img{
+	width: 100%;
+	height: 100%;
+}
+/*最新样片部分*/
+.LFY_newsample{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.LFY_sub_newsample{
+	width: 1200px;
+	margin: 0 auto;
+}
+.LFY_sub_newsample p{
+	width: 1200px;
+	text-align: center;
+	font-family: castellar;
+	font-size: 40px;
+}
+.LFY_sub_newsample span{
+	display: inline-block;
+	width: 1200px;
+	text-align: center;
+	font-size: 40px;
+	color: #c10a0a;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.LFY_sub_newsample dl{
+	width: 700px;
+	height: 50px;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+.LFY_sub_newsample dl dt{
+	float: left;
+	font-size: 28px;
+	margin-right: 33px;
+	text-align: center;
+	line-height: 50px;
+}
+.LFY_rightdistence{
+	margin-right: 0 !important;
+}
+.LFY_sub_newsample dl dt a{
+	display: inline-block;
+	width: 148px;
+	height: 48px;
+	border: 1px solid #d7d7d7;
+	border-radius: 24px;
+	color: black;
+}
+.LFY_sub_newsample dl dt a:hover{
+	background: #6d98c2;
+	color: white;
+}
+.LFY_sub_newsample ol{
+	width: 1065px;
+	height: 50px;
+	padding-left: 67px;
+	padding-right: 67px;
+	margin-top: 26px;
+}
+.LFY_sub_newsample ol li{
+	float: left;
+	font-size: 28px;
+	margin-right: 33px;
+	text-align: center;
+	line-height: 50px;
+}
+.LFY_sub_newsample ol li a{
+	display: inline-block;
+	width: 148px;
+	height: 48px;
+	border: 1px solid #d7d7d7;
+	border-radius: 24px;
+	color: black;
+}
+.LFY_sub_newsample ol li a:hover{
+	background: #6d98c2;
+	color: white;
 }
